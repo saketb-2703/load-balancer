@@ -1,7 +1,7 @@
 # Load-Balanced System
 
 ### Steps to execute sequentially to start and run the cluster manager and then fetch outputs from the cluster
-1. Download the data file from (https://www.dropbox.com/scl/fi/90uq8i4k3h3n3xo033a90/master_file.txt?rlkey=094ev8lapojteo30iducby69f&dl=0) and place the data file `master_file.txt` under `cluster_manager/data` and `master/data`
+1. Download the data file from (https://www.dropbox.com/scl/fi/90uq8i4k3h3n3xo033a90/master_file.txt?rlkey=094ev8lapojteo30iducby69f&dl=0) and place the data file `master_file.txt` under `cluster_manager/data/` and `master/data/`
 2. Run `cd cluster_manager`
 3. Run `python3 src/clusterize.py <cluster_size1> <cluster_size2> ... <cluster_sizeN>  <starting_port>` to create the clusters
 4. Run `python3 src/buildContainer.py <cluster_size1> <cluster_size2> ... <cluster_sizeN>` to run the containers
